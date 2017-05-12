@@ -2,16 +2,16 @@
  * tony
  * 2017-05-12
  */
-var BaseOuts = require('./../../FrameWorkMj/BaseData/BaseOuts');
+var BaseFuZis = require('./../../FrameWorkMj/BaseData/BaseFuZis');
 var util = require('util');
 
-var ClientBaseOuts = function(){
-    BaseOuts.call(); 
+var ClientBaseFuZis = function(){
+    BaseFuZis.call(); 
 };
 
-util.inherits(ClientBaseOuts, BaseOuts);
+util.inherits(ClientBaseFuZis, BaseFuZis);
 
-var pro = ClientBaseOuts.prototype;
+var pro = ClientBaseFuZis.prototype;
 
 /***断线重连重新解析
  * serverInfo:服务器的数据

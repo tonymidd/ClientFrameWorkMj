@@ -2,16 +2,16 @@
  * tony
  * 2017-05-12
  */
-var BaseOuts = require('./../../FrameWorkMj/BaseData/BaseOuts');
+var BaseWalls = require('./../../FrameWorkMj/BaseData/BaseWalls');
 var util = require('util');
 
-var ClientBaseOuts = function(){
-    BaseOuts.call(); 
+var ClientBaseWalls = function(){
+    BaseWalls.call(); 
 };
 
-util.inherits(ClientBaseOuts, BaseOuts);
+util.inherits(ClientBaseWalls, BaseWalls);
 
-var pro = ClientBaseOuts.prototype;
+var pro = ClientBaseWalls.prototype;
 
 /***断线重连重新解析
  * serverInfo:服务器的数据
